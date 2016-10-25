@@ -1,5 +1,6 @@
 package fynances.desktop
 
+import fynances.core.Example
 import javafx.scene.control.Button
 import javafx.scene.control.Label
 import javafx.scene.layout.VBox
@@ -11,9 +12,8 @@ class MyApp: App() {
 
 class MyView: View() {
     override val root = VBox()
-
     init {
         root += Button("Press Me")
-        root += Label("Waiting")
+        root += Label(Example().data)
     }
 }

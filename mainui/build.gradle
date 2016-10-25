@@ -2,6 +2,7 @@ apply plugin: "kotlin"
 
 repositories {
     mavenCentral()
+    maven { url "https://jitpack.io" }
 }
 
 sourceSets {
@@ -11,4 +12,5 @@ sourceSets {
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     compile 'no.tornado:tornadofx:1.5.6'
+    compile 'com.github.fynances:fynances-core:0.1'
 }
