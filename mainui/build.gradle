@@ -11,6 +11,6 @@ sourceSets {
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    compile 'no.tornado:tornadofx:1.5.6'
+    compile 'no.tornado:tornadofx:1.5.7'
     compile 'com.github.fynances:fynances-core:0.1'
 }
